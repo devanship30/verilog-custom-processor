@@ -21,6 +21,12 @@ Key features of the processor include:
 - `tb/`    : Contains the testbench (`top_tb.v`) for simulation
 - `mem/`   : Contains program memory files (`program_1.mem`, `program_2.mem`) for different instruction programs
 
+### Files
+- `rtl/top.v`      : Top-level processor RTL
+- `tb/top_tb.v`    : Testbench for functional verification
+- `mem/program_1.mem` : Program image 1
+- `mem/program_2.mem` : Program image 2
+
 ***
 
 ## Processor Architecture
