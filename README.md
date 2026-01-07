@@ -198,12 +198,6 @@ Additional commented test cases are included in the testbench for:
 
 ## Simulation Instructions
 
-1. Open the project in your preferred simulator (ModelSim, Vivado, etc.)
-2. Select the top-level testbench `top_tb.v`
-3. Ensure the desired program memory file is active in `top.v` (`$readmemb("program_mem.mem", inst_mem);`)
-4. Compile and run the simulation
-5. Observe waveforms or console outputs to verify processor operations
-
 - Open the project in a Verilog simulator (Vivado, ModelSim, etc.).
 - Compile the RTL file:
     rtl/top.v
