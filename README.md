@@ -10,7 +10,7 @@ This project implements a simple custom processor in Verilog HDL with:
 
 ## Repository Structure
 
-- `rtl/`   : Contains the synthesizable Verilog RTL (`top.v`)
+- 'rtl/'   : Contains the synthesizable Verilog RTL (`top.v`)
 - `tb/`    : Contains the testbench (`top_tb.v`) for simulation
 - `mem/`   : Contains program memory files (`program_1.mem`, `program_2.mem`) for different instruction programs
 
