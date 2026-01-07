@@ -15,6 +15,26 @@ Key features of the processor include:
 
 ***
 
+## Table of Contents
+
+- [Repository Structure](#repository-structure)
+- [Processor Overview](#processor-overview)
+- [Instruction Format](#instruction-format)
+- [Supported Instruction Set](#supported-instruction-set)
+  - [Arithmetic Instructions](#arithmetic-instructions)
+  - [Logical Instructions](#logical-instructions)
+  - [Load / Store Instructions](#load--store-instructions)
+  - [Jump and Branch Instructions](#jump-and-branch-instructions)
+  - [Halt Instruction](#halt-instruction)
+- [Program Memory](#program-memory-mem)
+- [Processor FSM States](#processor-fsm-states)
+- [Testbench](#testbench-top_tbv)
+- [Simulation Instructions](#simulation-instructions)
+- [Key Learnings](#key-learnings)
+- [Future Improvements](#future-improvements)
+
+***
+
 ## Repository Structure
 
 - `rtl/`   : Contains the synthesizable Verilog RTL (`top.v`)
