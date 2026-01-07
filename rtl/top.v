@@ -376,8 +376,8 @@ endtask
 
 //----READING INSTRUCTION FILE----//
 initial begin
-//    $readmemb("inst_data.mem", inst_mem);
-    $readmemb("program_mem.mem", inst_mem);
+            //    $readmemb("program_1.mem", inst_mem);
+            $readmemb("program_2.mem", inst_mem);
 end
 
 
